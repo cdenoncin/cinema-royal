@@ -1,0 +1,33 @@
+/*COMPONENTS / SLIDER*/
+
+.slider {
+    height: 420px;
+    width: 100%;
+    background-image: url('../img/home.png');
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.slider-pic {
+    width: 100%;
+    height: auto;
+}
+
+.slider-film {
+    background-color: #26607A;
+    width: 35%;
+    position: absolute;
+    transform: translateY(-100%);
+    z-index: 1;
+}
+
+.slider-film-text {
+    font-family: 'Bebas Neue', cursive;
+    z-index: 2;
+    letter-spacing: .1rem;
+    padding : 15px 0;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+}

@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--<link href="style.css" rel="stylesheet">-->
+    <link rel="stylesheet" href="./src/css/main.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap" rel="stylesheet">
+
+    <script type="text/javascript" src="http://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="src/js/accueil.js"></script>
+    <script type="text/javascript" src="src/js/actu.js"></script>
+    <script type="text/javascript" src="src/js/affiche.js"></script>
+    <script type="text/javascript" src="src/js/menu.js"></script>
+
+    <title>Cinéma Royal</title>
+</head>
+
+<body>
+    <header>
+        <div class="header-1">
+            <a href="index.html"><img class="logo-resp" src="dist/img/logo.png"></a>
+        </div>
+        <div class="header-1-2">
+            <ul>
+                <li><a class="a-none menu-elt" href="affiche.html">À l'affiche</a></li>
+                <li><a class="a-none menu-elt" href="actualites.html">Actualités</a></li>
+                <li><a class="a-none menu-elt" href="prochainement.html">Prochainement</a></li>
+                <li><a class="a-none menu-elt" href="tarifs.html">Nos tarifs</a></li>
+                <li><a class="a-none menu-elt" href="contact.html">Contact</a></li>
+                <div class="li-elt">
+                    <li class="licon"><a class="menu-icon" href="search.html"><img class="img-nav-2"
+                                src="dist/img/search.png"></a></li>
+                    <li class="licon"><a class="menu-icon" href="connexion.html"><img class="img-nav"
+                                src="dist/img/user.png"></a></li>
+                </div>
+            </ul>
+        </div>
+        <div class="header-2">
+            <a href="menu.html"><img class="menu-resp" src="dist/img/menu.png"></a>
+        </div>
+    </header>
+
+    <div class="ecart-responsive"></div>
+
+    <div class="site-container">
+
+        <div class="fil-ariane">
+            <a class="a-riane" href="index.html">
+                <p class="fil">Accueil ></p>
+            </a>
+            <p class="fil-2"> &nbsp;Actualités</p>
+        </div>
+
+        <div class="actu-aff">
+            <div class="actu-menu">
+                <h2>Actualités</h2>
+                <div class="a-menu">
+                    <p class="actu-menu-txt js-menu active" data-class="all">toutes</p>
+                    <p class="actu-menu-txt js-menu" data-class="cinema">&ensp;cinéma</p>
+                    <p class="actu-menu-txt js-menu" data-class="avp">&ensp;avant-premières</p>
+                </div>
+            </div>
+
+            <div class="actualite-glob js-item all cinema">
+                <div class="actualite-apercu">
+                    <div class="actu-img"></div>
+                </div>
+                <div class="actualite-texte">
+                    <div class="actu-h3">
+                        <h3 class="actu-date">29 oct. 2020</h3>
+                    </div>
+                    <a href="http://localhost/cinema_royal/single-actu/" class="a-none">
+                        <h3 class="actu-ss-titre">Fermeture de tous les cinémas de France pour une durée indéterminée
+                        </h3>
+                    </a>
+                    <p class="actu-desc">Une semaine après l'extension du couvre-feu à un total de 58 départements, le
+                        Président de la République a annoncé un retour au confinement national. Les salles de cinéma
+                        seront
+                        donc fermées dès le vendredi 30 octobre.</p>
+                    <a href="http://localhost/cinema_royal/single-actu/" class="a-riane"><strong>
+                            <p class="actualite-btn">Lire la suite</p>
+                        </strong></a>
+                </div>
+            </div>
+
+            <div class="actualite-glob js-item all avp">
+                <div class="actualite-apercu">
+                    <div class="actu-img actu-img-2"></div>
+                </div>
+                <div class="actualite-texte">
+                    <div class="actu-h3">
+                        <h3 class="actu-date">10 oct. 2020</h3>
+                    </div>
+                    <a href="http://localhost/cinema_royal/single-actu/" class="a-none">
+                        <h3 class="actu-ss-titre">[Avant-première] - Poly, Nicolas Vanier</h3>
+                    </a>
+                    <p class="actu-desc">Le 13 octobre prochain aura lieu l'avant-première du film Poly, en présence de
+                        l'équipe du film. Vous pourrez rencontrer et échanger avec le réalisateur Nicolas Vanier ainsi
+                        que
+                        François Cluzet, Julie Gayet et Élisa de Lambert.</p>
+                    <a href="http://localhost/cinema_royal/single-actu/" class="a-riane"><strong>
+                            <p class="actualite-btn">Lire la suite</p>
+                        </strong></a>
+                </div>
+            </div>
+
+            <div class="actualite-glob js-item all avp">
+                <div class="actualite-apercu">
+                    <div class="actu-img actu-img-3"></div>
+                </div>
+                <div class="actualite-texte">
+                    <div class="actu-h3">
+                        <h3 class="actu-date">03 oct. 2020</h3>
+                    </div>
+                    <a href="http://localhost/cinema_royal/single-actu/" class="a-none">
+                        <h3 class="actu-ss-titre">[Avant-première] - 30 jours max, Tarek Boudali</h3>
+                    </a>
+                    <p class="actu-desc">Rencontrez l'équipe du film 30 jours max lors de l'avant-première le mardi 6
+                        octobre ! Échangez avec le réalisateur Tarek Boudali ainsi que Philippe Lacheau. Découvrez les
+                        secrets du tournage ainsi que le bêtisier en exclusivité.</p>
+                    <a href="http://localhost/cinema_royal/single-actu/" class="a-riane"><strong>
+                            <p class="actualite-btn actualite-btn-resp">Lire la suite</p>
+                        </strong></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer">
+            <div class="footer-section-1">
+                <strong>
+                    <p>Le cinéma</p>
+                </strong>
+                <a class="a-none-w" href="actualites.html">
+                    <p class="p-footer p-footer-first">Actualités</p>
+                </a>
+                <a class="a-none-w" href="tarifs.html">
+                    <p class="p-footer">Nos tarifs</p>
+                </a>
+                <a class="a-none-w" href="tarifs.html">
+                    <p class="p-footer">Groupes de spectateurs</p>
+                </a>
+                <a class="a-none-w" href="tarifs.html">
+                    <p class="p-footer">Partenaires</p>
+                </a>
+                <div class="rs">
+                    <div class="rs-section">
+                    </div>
+                    <div class="rs-section-2">
+                    </div>
+                    <div class="rs-section-3">
+                    </div>
+                </div>
+            </div>
+            <div class="footer-section-2">
+                <strong>
+                    <p>Films et évènements</p>
+                </strong>
+                <a class="a-none-w" href="affiche.html">
+                    <p class="p-footer p-footer-first">Films à l'affiche</p>
+                </a>
+                <a class="a-none-w" href="affiche.html">
+                    <p class="p-footer">Nouveautés</p>
+                </a>
+                <a class="a-none-w" href="prochainement.html">
+                    <p class="p-footer">Prochainement</p>
+                </a>
+                <a class="a-none-w" href="prochainement.html">
+                    <p class="p-footer">Avant-premières</p>
+                </a>
+            </div>
+            <div class="footer-section-3">
+                <div class="ft-sc-3-in">
+                    <div class="rs-2">
+                        <div class="rs-section">
+                        </div>
+                        <div class="rs-section-2">
+                        </div>
+                        <div class="rs-section-3">
+                        </div>
+                    </div>
+                    <strong>
+                        <p class="hidden">Liens utiles</p>
+                    </strong>
+                    <p class="p-footer p-footer-first">Mentions légales</p>
+                    <p class="p-footer">Conditions générales</p>
+                    <p class="p-footer">Paramétrage des cookies</p>
+                    <p class="p-footer">Charte de confidentialité</p>
+                    <p class="p-footer">Plan du site</p>
+                    <p class="p-footer">Accessibilité</p>
+                    <a class="a-none-w" href="contact.html">
+                        <p class="p-footer">Contact</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <p class="copyright">Cinéma Royal, Saint-Max ©</p>
+    </footer>
+
+</body>
+
+</html>

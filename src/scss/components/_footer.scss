@@ -1,0 +1,131 @@
+footer {
+    height: auto;
+    width: 100%;
+    background-color: #111111;
+}
+
+.footer-section-1 {
+    color: white;
+    width: 33.3%;
+    padding: 5% 8% 4% 8%;
+}
+
+.footer-section-2 {
+    color: white;
+    width: 33.3%;
+    padding: 5% 8% 4% 8%;
+}
+
+.footer-section-3 {
+    color: white;
+    width: 33.3%;
+    padding: 5% 8% 4% 8%;
+}
+
+.ft-sc-3-in {
+    padding: 0;
+}
+
+.footer {
+    display: flex;
+    flex-wrap: nowrap;
+    border-bottom : 1px solid #898888;
+}
+
+.rs-section {
+    width: 20%;
+    padding: 5% 8% 4% 8%;
+    background-image: url("../img/facebook.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.rs-section-2 {
+    width: 20%;
+    padding: 5% 8% 4% 8%;
+    background-image: url("../img/twitter.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.rs-section-3 {
+    width: 20%;
+    padding: 5% 8% 4% 8%;
+    background-image: url("../img/instagram.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.rs {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 25px;
+    width: 50%;
+    height: 25px;
+}
+
+.rs-2 {
+    display: none;
+    flex-wrap: nowrap;
+    margin-top: 25px;
+    width: 50%;
+    height: 25px;
+}
+
+.p-footer {
+    margin-top: 20px;
+}
+
+.p-footer-first {
+    margin-top: 60px !important;
+}
+
+.copyright {
+    text-align: center;
+    color: #898888;
+    font-size: 13px;
+    margin-top: 15px;
+    padding-bottom: 15px;
+}
+
+.a-none-w {
+    color: white;
+    text-decoration: none;
+}
+
+//RESPONSIVE
+
+@media screen and (max-width: 852px) {
+    .footer {
+        display: block;
+    }
+    .footer-section-1 {
+        display: none;
+    }
+    .footer-section-2 {
+        display: none;
+    }
+    .footer-section-3 {
+        width: 100% !important;
+        padding: 0 !important;
+    }
+    .ft-sc-3-in {
+        padding: 5% 8% 4% 8% !important;
+    }
+    .p-footer-first {
+        margin-top: 8% !important;
+    }
+    .hidden {
+        display: none;
+    }
+    .rs-2 {
+        display: flex;
+        width: 30%;
+    }
+    .rs-section .rs-section-2 .rs-section-3 {
+        padding: 5% 15% 4% 15%;
+    }
+}

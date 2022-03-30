@@ -1,0 +1,452 @@
+body {
+    overflow-x: hidden;
+}
+/*BIENVENUE*/
+
+.bienvenue-text {
+    padding: 3% 0 3% 5%;
+    background-color: white;
+}
+
+.bienvenue-1 {
+    font-size: 30px;
+}
+
+.bienvenue-2 {
+    font-size: 49px;
+    font-family: Montserrat, sans-serif;
+    font-weight: 800;
+}
+
+/*ACTUELLEMENT À L'AFFICHE*/
+
+.home-aff {
+    background-color: #eaeaea;
+    margin: 0 5% 5% 5%;
+    padding: 0 0 3% 0;
+    height: auto;
+}
+
+h2 {
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 400;
+    color: #111111;
+    letter-spacing: 1px;
+    font-size: 33px;
+    padding: 3% 6%;
+}
+
+.affiche {
+    width: 90%;
+    border-radius: 25px;
+}
+
+.affiche:hover {
+    width: 95%;
+}
+
+.element {
+    text-align: center;
+}
+
+.aff-titre {
+    font-size: 24px;
+    margin-top: 15px;
+}
+
+.aff-aut {
+    font-family: 'Lora', serif;
+    font-size: 18px;
+    margin-top: 10px;
+    padding-bottom: 55px;
+}
+
+// BOUTON VOIR TOUT
+
+.aff-btn {
+    text-align: center;
+    color:#26607A;
+}
+
+.aff-btn:hover {
+    color: #111111;
+}
+
+.aff-btn:visited {
+    color: #26607A;
+}
+
+.aff-btn-a {
+    text-decoration: none;
+}
+//RESPONSIVE PREMIERE PARTIE
+.first-home-aff-resp {
+    background-color: #eaeaea;
+    margin: 0 0 5% 5%;
+    height: auto;
+    display: none;
+}
+
+.slider-aff {
+    display: flex;
+    padding: 0 0 0 5%;
+}
+
+.slider-aff-elt {
+    text-align: center;
+    padding: 0 2%;
+}
+
+.sec-affiche-resp {
+    width: 35vh !important;
+    border-radius: 25px;
+}
+
+//SECONDE PARTIE / EVENEMENTS A VENIR
+
+.sec-home-aff {
+    background-color: #eaeaea;
+    margin: 0 0 0 5%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.third-home-aff-resp {
+    background-color: #eaeaea;
+    margin: 0 5% 5% 5%;
+    height: auto;
+}
+
+.left-home-aff {
+    width: 70%;
+}
+
+.home-aff-h2 {
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 400;
+    color: #111111;
+    letter-spacing: 1px;
+    font-size: 33px;
+    padding: 3% 6%;
+    position: absolute !important;
+}
+
+/*.sec-aff1 {
+    background-color: aquamarine;
+    height: 400px;
+    width: 75px;
+    position: absolute;
+}
+
+.sec-aff2 {
+    background-color: beige;
+    height: 400px;
+    width: 75px;
+    position: absolute;
+}*/
+
+.sec-home-affiches {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5% 0 5%;
+    width: 90%;
+    margin-top: 2%;
+}
+
+.sec-home-affiches-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5% 0 5%;
+    width: 90%;
+    margin-top: 2%;
+}
+
+.sec-affiche {
+    width: 70%;
+    border-radius: 25px;
+    transition: transform 0.25s cubic-bezier(.17,.67,.83,.67);
+}
+
+.sec-affiche:hover {
+    /*width: 75%;*/
+    transform: scale(1.05);
+    transition: transform 0.25s cubic-bezier(.17,.67,.83,.67);
+}
+
+.sec-home-menu {
+    display: flex;
+}
+
+.actu-menu-txt {
+    font-size: 25px;
+    margin-top: 11%;
+    color:#B1B1B1;
+}
+
+.active {
+    color: #26607A !important;
+}
+
+.sortedDown {
+    display: none;
+}
+
+.home-a-menu {
+    display:flex;
+    margin-top: 2%;
+}
+
+//RESPONSIVE SECONDE PARTIE
+.sec-home-aff-resp {
+    background-color: #eaeaea;
+    margin: 0 0 5% 5%;
+    height: auto;
+    display: none;
+}
+
+//MENU POUR LE JQUERY
+.home-menu-txt {
+    font-size: 25px;
+    margin-top: 15%;
+    color: $gris;
+    cursor : pointer;
+    &:last-of-type {
+        &:after {
+            content: none;
+        }
+    }
+
+    &:after {
+        content: "|";
+        color: $gris;
+        padding-left : 10px;
+    }
+}
+
+
+// PARTIE DROITE : ACTUALITES
+
+.right-home-aff {
+    background-color: #26607A;
+    height: auto;
+    float: right;
+    width: 35%;
+}
+
+.home-actu {
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 400;
+    color: white;
+    letter-spacing: 1px;
+    font-size: 33px;
+    padding: 8% 15%;
+}
+
+.home-actu-mini {
+    height: 20%;
+    padding-bottom: 5%;
+    margin-left: 15%;
+}
+
+.home-actu-img {
+    float: left;
+    height: 150px;
+    width: 150px;
+    background-image: url("../img/actu-1.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.home-actu-img-resp {
+    width: 30% !important;
+    border-radius: 25px;
+}
+
+.home-actu-img-2 {
+    background-image: url("../img/actu-2.jpg") !important;
+}
+
+.home-actu-img-3 {
+    background-image: url("../img/actu-3.jpg") !important;
+}
+
+.home-desc-actu-1 {
+    border-bottom: 2px solid white;
+    margin-left: 170px;
+}
+
+.home-desc-actu-1-resp {
+    border-bottom: 2px solid #26607A;
+    margin-left: 35%;
+}
+
+.home-actu-date {
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 400;
+    color: white;
+    letter-spacing: 1px;
+    font-size: 25px;
+}
+
+.home-actu-desc {
+    color: white;
+    margin-top: 5%;
+    font-size: 15px;
+    margin-left: 170px;
+    margin-right: 20px;
+}
+
+.home-actu-date-resp {
+    color: #26607A !important;
+}
+
+.home-actu-desc-resp {
+    color: #111111 !important;
+    margin-left: 35% !important;
+}
+
+// BOUTON ACTUALITE
+
+
+.actu-btn {
+    color: white;
+    margin-top: 20px;
+    padding: 5%;
+    text-align: right;
+    background-color: #26607A;
+}
+
+.actu-btn-resp {
+    color: #26607A;
+    /*margin-top: 20px;*/
+    padding: 0 3% 5% 3%;
+    text-align: right;
+}
+
+.actu-btn:hover {
+    background-color: #eaeaea;
+    color: #26607A;
+}
+
+.actu-btn:visited {
+    color: #26607A;
+}
+
+.actu-btn-a {
+    text-decoration: none;
+}
+
+//RESPONSIVE 
+
+@media screen and (max-width: 1295px) {
+    .sec-home-aff {
+        display: block;
+        margin: 0 5% !important;
+    }
+    .left-home-aff {
+        width: 100%;
+    }
+    .right-home-aff {
+        float: none;
+        width: 100%;
+        margin-top: 3%;
+    }
+    .home-actu {
+        padding: 3% 6%;
+    }
+    .home-actu-mini {
+        margin-left: 6%;
+    }
+    .actu-btn {
+        padding: 2%;
+    }
+    .third-home-aff-resp {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1126px) {
+    .right-home-aff {
+        display: none;
+    }
+    .sec-home-aff {
+        margin: 0 5% 5% 5% !important;
+    }
+    .sec-aff-btn {
+        padding: 0 0 5% 0;
+    }
+    .third-home-aff-resp {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 611px) {
+    .first-home-aff-resp {
+        display: none;
+    }
+    .sec-home-aff-resp {
+        display: none;
+    }
+}
+
+
+@media screen and (min-width: 1126px) {
+    .third-home-aff-resp {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 675px) {
+    .slider-film-text {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 611px) {
+//le moment où les affiches déconnent
+    .sec-home-aff {
+        display: none;
+    }
+    .home-aff {
+        display: none;
+    }
+    .bienvenue-1 {
+        font-size: 20px;
+    }
+    .bienvenue-2 {
+        font-size: 33px;
+    }
+    .sec-home-aff-resp {
+        display: block;
+    }
+    .first-home-aff-resp {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .home-menu-txt {
+        margin-top: 0 !important;
+    }
+    .a-menu {
+        padding: 0 6% 3% 6% !important;
+    }
+
+}
+
+@media screen and (max-width: 577px) {
+    .home-menu-txt {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 404px) {
+    .home-menu-txt {
+        font-size: 13px;
+        margin-bottom: 5%;
+    }
+}

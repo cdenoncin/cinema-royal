@@ -1,0 +1,80 @@
+.div-sign {
+    background-color: #eaeaea;
+    margin: 0 5%;
+    height: auto;
+}
+
+.sign-h2 {
+    padding: 5% 10%;
+}
+
+.sign-p {
+    color: #26607A;
+    margin-top: -10%;
+    margin-bottom: 15%;
+}
+
+.sign-mdp {
+    text-align: right;
+    font-size: 13px;
+    margin-bottom: 30px;
+}
+
+.sign-mdp:hover {
+    color: #26607A;
+}
+
+.a-none {
+    text-decoration: none;
+    color: #111111;
+}
+
+.sign-1-div {
+    height: auto;
+    display: flex;
+    padding: 0 20% 10% 20%;
+    justify-content: space-between;
+}
+
+.sign-1-1 {
+    height: auto;
+    width: 30%;
+}
+
+.sign-1-2 {
+    height: auto;
+    width: 30%;
+}
+
+
+// LABELS
+
+
+.sign-form__elements {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.sign-button__form {
+    background-color: #d6d6d6;
+    border-style: none;
+    color: #111111;
+    width: 100%;
+    height: 46px;
+}
+
+//RESPONSIVE 
+
+@media screen and (max-width: 895px) {
+    .sign-1-div {
+        display: block;
+    }
+    .sign-1-1 {
+        width: 100%;
+        margin: 10% 0 0 0;
+    }
+    .sign-1-2 {
+        width: 100%;
+        margin: 25% 0 0 0;
+    }
+}

@@ -1,0 +1,23 @@
+// COMPONENTS
+@import "./components/menu";
+@import "./components/menu-mob";
+@import "./components/slider";
+@import "./components/footer";
+@import "./components/slider-drag";
+
+// FOUNDATIONS
+@import "./foundations/variables";
+
+// ELEMENTS
+
+//PAGES
+@import "./pages/index";
+@import "./pages/actualites";
+@import "./pages/tarifs";
+@import "./pages/contact";
+@import "./pages/affiche";
+@import "./pages/prochainement";
+@import "./pages/connexion";
+@import "./pages/user";
+@import "./pages/single-actu";
+@import "./pages/single-affiche";

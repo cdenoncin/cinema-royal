@@ -1,0 +1,133 @@
+.affichage {
+    background-color: #eaeaea;
+    margin: 0 5%;
+    height: auto;
+}
+
+
+.aff-affiches {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5% 0 5%;
+}
+
+.affiche {
+    width: 70%;
+    border-radius: 25px;
+}
+
+.affiche:hover {
+    width: 75%;
+}
+
+.aff-menu-txt {
+    font-size: 25px;
+    margin-top: 14%;
+    color: $gris;
+    cursor: pointer;
+
+    &:last-of-type {
+        &:after {
+            content: none;
+        }
+    }
+
+    &:after {
+        content: "|";
+        color: $gris;
+        padding-left: 10px;
+    }
+}
+
+//AFFICHES ESSAI 2
+
+.slider-affiches {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+.slid-aff-affiches {
+    width: 100%;
+}
+
+.slider-aff-elt {
+    text-align: center;
+    padding: 0 2%;
+    width: min-content;
+}
+
+.sec1-affiche-resp {
+    width: 50vh !important;
+    border-radius: 25px;
+}
+
+.sec1-affiche-resp:hover {
+    transform: scale(1.05);
+    transition: transform 0.25s cubic-bezier(.17, .67, .83, .67);
+}
+
+.proch-h2-resp {
+    display: none;
+}
+
+//RESPONSIVE
+
+@media screen and (max-width: 888px) {
+    //Pour la taille des affiches qui deconnent à ce moment là
+}
+
+
+@media screen and (max-width: 1300px) {
+    .aff-menu-txt {
+        margin-top: 0 !important;
+    }
+
+    .a-menu {
+        padding: 0 6% 3% 6% !important;
+    }
+
+}
+
+@media screen and (max-width: 577px) {
+    .aff-menu-txt {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 404px) {
+    .aff-menu-txt {
+        font-size: 13px;
+        margin-bottom: 5%;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    .sec1-affiche-resp {
+        width: 40vh !important;
+    }
+
+    .sec1-affiche-resp:hover {
+        width: 40vh !important;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .sec1-affiche-resp {
+        width: 30vh !important;
+    }
+
+    .sec1-affiche-resp:hover {
+        width: 30vh !important;
+    }
+
+    .proch-h2-resp {
+        display: block;
+    }
+
+    .proch-h2 {
+        display: none;
+    }
+}

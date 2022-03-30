@@ -1,0 +1,31 @@
+.drag-img {
+    /*width: 70%;*/
+    border-radius: 25px;
+    transition: transform 0.25s cubic-bezier(.17,.67,.83,.67);
+}
+
+.drag-img:hover {
+    /*width: 75%;*/
+    transform: scale(1.05);
+    transition: transform 0.25s cubic-bezier(.17,.67,.83,.67);
+}
+
+.drag-titre {
+    font-size: 24px;
+    margin-top: 15px;
+    text-align: center;
+    color: #111111;
+}
+
+.drag-aut {
+    font-family: 'Lora', serif;
+    font-size: 18px;
+    margin-top: 10px;
+    padding-bottom: 55px;
+    text-align: center;
+    color: #111111;
+}
+
+.drag-elt {
+    margin-top: 4%;
+}

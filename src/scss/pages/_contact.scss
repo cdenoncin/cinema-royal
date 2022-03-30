@@ -1,0 +1,110 @@
+.div-contact {
+    background-color: #bb6e6e;
+    margin: 0 0 0 5%;
+    height: auto;
+    display: flex;
+}
+
+.contact-1 {
+    background-color: #eaeaea;
+    height: auto;
+    width: 55%;
+}
+
+.contact-2 {
+    width: 45%;
+    background-color: #eaeaea;
+    height: auto;
+}
+
+.contact-h2 {
+    padding: 5% 10%;
+}
+
+.cont-1-div {
+    height: auto;
+    display: flex;
+    padding: 0 10% 10% 10%;
+    justify-content: space-between;
+}
+
+.cont-1-1 {
+    height: auto;
+    width: 55%;
+}
+
+.cont-1-2 {
+    height: auto;
+    width: 30%;
+}
+
+
+// LABELS
+
+
+.c-form__elements {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.c-button__form {
+    background-color: #d6d6d6;
+    border-style: none;
+    color: #111111;
+    width: 100%;
+    height: 46px;
+}
+
+
+input {
+    background-color: #eaeaea;
+    border-style: none;
+    border : 2px solid #111111;
+    display: block;
+    width: 100%;
+    height: 30px;
+    color: #7e7e7e;
+}
+
+.blue-input {
+    border : 2px solid #26607A !important;
+}
+
+.long-input {
+    height: 80px !important;
+}
+
+label {
+    padding: 0 16px;
+    transform: translateY(-50%);
+    margin-left: 16px;
+    position: absolute;
+    pointer-events: none;
+    color: #111111;
+    background-color: #eaeaea;
+    top: 0;
+}
+
+//RESPONSIVE 
+
+@media screen and (max-width: 780px) {
+    .contact-2 {
+        display: none !important;
+    }
+    .cont-1-1 {
+        width: 100% !important;
+    }
+    .cont-1-div {
+        display: block !important;
+    }
+    .cont-1-2 {
+        width: 100%;
+        margin-top: 10%;
+    }
+    .contact-1 {
+        width: 100%;
+    }
+    .div-contact {
+        margin: 0 5%;
+    }
+}

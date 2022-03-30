@@ -1,0 +1,221 @@
+.single-aff {
+    display: flex;
+    margin: 0 0 0 6%;
+}
+
+.single-aff-aff {
+    background-color: #eaeaea;
+    height: auto;
+    width: 70%;
+}
+
+.single-aff-aff-2 {
+    background-color: #26607A;
+    height: auto;
+    width: 30%;
+}
+
+.retour {
+    font-family: 'Bebas Neue', cursive;
+    color: #26607A;
+    padding: 3% 0 0 3%;
+    font-size: 21px;
+}
+
+.single-actu-date {
+    color: #26607A;
+    padding: 4% 0 0 0;
+}
+
+.single-h2 {
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 400;
+    color: #111111;
+    letter-spacing: 1px;
+    font-size: 33px;
+    padding: 3% 1% 0 0;
+}
+
+.single-aff-h3 {
+    display: flex;
+    margin-left: 6%;
+    padding: 0 0 1% 0;
+}
+
+.single-actu {
+    margin-top: 3%;
+}
+
+
+.single-img {
+    padding: 0 6% 3% 6%;
+}
+
+.single-aff-img {
+    float: left;
+    width: 100%;
+    border-radius: 25px;
+}
+
+.single-actu-2 {
+    padding: 2% 6% 5% 6%;
+    justify-content: space-between;
+}
+
+.flex {
+    display: flex;
+}
+
+.single-aff-txt {
+    padding: 0 6% !important;
+}
+
+.single-aff-txt-blue {
+    color:#26607A;
+}
+
+.single-aff-txt-2 {
+    padding: 0 6% 6% 6%;
+}
+
+.acteurs {
+    padding: 0 !important;
+}
+
+.clear {
+    clear:both;
+}
+
+.single-aff-video {
+    width: 60%;
+    height: auto;
+}
+
+.single-aff-btns {
+    width: 35%;
+}
+
+.c-button__form-aff {
+    background-color: #d6d6d6;
+    border-style: none;
+    color: #111111;
+    width: 100%;
+    height: 46px;
+}
+
+
+.c-button__form-aff-2 {
+    margin-bottom: 7%;
+}
+
+//SECTION DES SEANCES
+
+.section-seances {
+    padding: 3% 0 3% 10%;
+}
+
+.section-seances-2 {
+    padding: 10% 0 3% 10% !important;
+}
+
+.seances-h2 {
+    color: white;
+    margin: 4% 4% 0 4%;
+}
+
+.aff-date {
+    border-bottom: 1px solid white;
+}
+
+.aff-date-txt {
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 400;
+    font-size: 23px;
+}
+
+//TABLEAUX DES SEANCES
+
+.tab-seances {
+    justify-content: space-between;
+    padding : 6% 10% 0 0;
+}
+
+.tab-tle {
+    color: white;
+    background-color: #378DB4;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 400;
+    font-size: 23px;
+    padding: 2% 3%;
+}
+
+.tab-elt {
+    color: white;
+    background-color: #205066;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 400;
+    font-size: 23px;
+    padding: 2% 3%;
+}
+
+@media screen and (max-width: 1150px) {
+    .single-aff {
+        display: block;
+        margin: 0 5%;
+    }
+    .single-aff-aff {
+        width: 100%;
+    }
+    .single-aff-aff-2 {
+        width: 100%;
+        margin: 0 0 5% 0;
+    }
+    .tab-seances {
+        padding: 2% 10% 0 0;
+    }
+    .section-seances {
+        padding: 0 0 0 10%;
+    }
+    .section-seances-2 {
+        padding: 5% 0 0% 10% !important;
+    }
+    .sec-seances-3 {
+        padding: 5% 0 5% 10% !important;
+    }
+    .tab-elt {
+        padding: 2% 5%;
+    }
+    .tab-tle {
+        padding: 2% 5%;
+    }
+}
+
+@media screen and (max-width: 585px) {
+    .tab-elt {
+        padding: 2% 3%;
+    }
+    .tab-tle {
+        padding: 2% 3%;
+    }
+    .single-actu-2 {
+        display: block !important;
+    }
+    .single-aff-video {
+        width: 100%;
+    }
+    .single-aff-btns {
+        text-align: center;
+        width: 100%;
+    }
+    .c-button__form-aff-2 {
+        margin-bottom: 4%;
+        margin-top: 5%;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .acteurs {
+        padding: 0 6% !important;
+    }
+}

@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--<link href="style.css" rel="stylesheet">-->
+    <link rel="stylesheet" href="./src/css/main.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap" rel="stylesheet">
+
+    <script type="text/javascript" src="http://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="src/js/accueil.js"></script>
+    <script type="text/javascript" src="src/js/actu.js"></script>
+    <script type="text/javascript" src="src/js/affiche.js"></script>
+    <script type="text/javascript" src="src/js/menu.js"></script>
+
+    <title>Cinéma Royal</title>
+</head>
+
+<body>
+    <header>
+        <div class="header-1">
+            <a href="index.html"><img class="logo-resp" src="dist/img/logo.png"></a>
+        </div>
+        <div class="header-1-2">
+            <ul>
+                <li><a class="a-none menu-elt" href="affiche.html">À l'affiche</a></li>
+                <li><a class="a-none menu-elt" href="actualites.html">Actualités</a></li>
+                <li><a class="a-none menu-elt" href="prochainement.html">Prochainement</a></li>
+                <li><a class="a-none menu-elt" href="tarifs.html">Nos tarifs</a></li>
+                <li><a class="a-none menu-elt" href="contact.html">Contact</a></li>
+                <div class="li-elt">
+                    <li class="licon"><a class="menu-icon" href="search.html"><img class="img-nav-2"
+                                src="dist/img/search.png"></a></li>
+                    <li class="licon"><a class="menu-icon" href="connexion.html"><img class="img-nav"
+                                src="dist/img/user.png"></a></li>
+                </div>
+            </ul>
+        </div>
+        <div class="header-2">
+            <a href="menu.html"><img class="menu-resp" src="dist/img/menu.png"></a>
+        </div>
+    </header>
+
+    <div class="ecart-responsive"></div>
+
+    <div class="site-container">
+
+        <div class="fil-ariane">
+            <a class="a-riane" href="index.html">
+                <p class="fil">Accueil ></p>
+            </a>
+            <p class="fil-2"> &nbsp;À l'affiche</p>
+        </div>
+
+        <div class="affichage">
+            <div class="actu-menu">
+                <h2>Actuellement à l'affiche</h2>
+                <!--<div class="a-menu">
+                <p id="all" class="aff-menu-txt active">tous les films</p>
+                <p class="aff-menu-txt">&ensp;|</p>
+                <p id="cinema" class="aff-menu-txt">&ensp;nouveautés</p>
+            </div>-->
+                <div class="a-menu">
+                    <p class="aff-menu-txt active" data-class="all">tous les films</p>
+                    <p class="aff-menu-txt" data-class="new">&ensp;nouveautés</p>
+                </div>
+            </div>
+
+            <div class="slid-aff-affiches">
+                <div class="slider-affiches">
+                    <div class="slider-aff-elt" data-class="all">
+                        <a href="single-affiche.html"><img class="sec-affiche sec1-affiche-resp"
+                                src="dist/img/home-aff-1.png"></a>
+                        <p class="aff-titre">Poly</p>
+                        <p class="aff-aut">Nicolas Vanier</p>
+                    </div>
+                    <div class="slider-aff-elt" data-class="all">
+                        <a href="single-affiche.html"><img class="sec-affiche sec1-affiche-resp"
+                                src="dist/img/home-aff-2.png"></a>
+                        <p class="aff-titre">Drunk</p>
+                        <p class="aff-aut">Thomas Vinterberg</p>
+                    </div>
+                    <div class="slider-aff-elt" data-class="all">
+                        <a href="single-affiche.html"><img class="sec-affiche sec1-affiche-resp"
+                                src="dist/img/home-aff-3.jpg"></a>
+                        <p class="aff-titre">Les Trolls 2</p>
+                        <p class="aff-aut">Walt Dohrn</p>
+                    </div>
+                    <div class="slider-aff-elt" data-class="new">
+                        <a href="single-affiche.html"><img class="sec-affiche sec1-affiche-resp"
+                                src="dist/img/home-aff-6.jpg"></a>
+                        <p class="aff-titre">30 jours max</p>
+                        <p class="aff-aut">Tarek Boudali</p>
+                    </div>
+                    <div class="slider-aff-elt" data-class="new">
+                        <a href="single-affiche.html"><img class="sec-affiche sec1-affiche-resp"
+                                src="dist/img/home-aff-7.png"></a>
+                        <p class="aff-titre">Adieu les cons</p>
+                        <p class="aff-aut">Albert Dupontel</p>
+                    </div>
+                    <div class="slider-aff-elt" data-class="all">
+                        <a href="single-affiche.html"><img class="sec-affiche sec1-affiche-resp"
+                                src="dist/img/home-aff-8.jpg"></a>
+                        <p class="aff-titre">Lupin III : The First</p>
+                        <p class="aff-aut">Takashi Yamazaki</p>
+                    </div>
+                    <div class="slider-aff-elt" data-class="new">
+                        <a href="single-affiche.html"><img class="sec-affiche sec1-affiche-resp"
+                                src="dist/img/home-aff-9.jpg"></a>
+                        <p class="aff-titre">Good Criminal</p>
+                        <p class="aff-aut">Mark Williams</p>
+                    </div>
+                    <div class="slider-aff-elt" data-class="all">
+                        <a href="single-affiche.html"><img class="sec-affiche sec1-affiche-resp"
+                                src="dist/img/home-aff-10.jpg"></a>
+                        <p class="aff-titre">Relic</p>
+                        <p class="aff-aut">Natalie Erika James</p>
+                    </div>
+                    <div class="slider-aff-elt" data-class="all">
+                        <a href="single-affiche.html"><img class="sec-affiche sec1-affiche-resp"
+                                src="dist/img/home-aff-11.png"></a>
+                        <p class="aff-titre">Petit Vampire</p>
+                        <p class="aff-aut">Joann Sfar</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <footer>
+        <div class="footer">
+            <div class="footer-section-1">
+                <strong>
+                    <p>Le cinéma</p>
+                </strong>
+                <a class="a-none-w" href="actualites.html">
+                    <p class="p-footer p-footer-first">Actualités</p>
+                </a>
+                <a class="a-none-w" href="tarifs.html">
+                    <p class="p-footer">Nos tarifs</p>
+                </a>
+                <a class="a-none-w" href="tarifs.html">
+                    <p class="p-footer">Groupes de spectateurs</p>
+                </a>
+                <a class="a-none-w" href="tarifs.html">
+                    <p class="p-footer">Partenaires</p>
+                </a>
+                <div class="rs">
+                    <div class="rs-section">
+                    </div>
+                    <div class="rs-section-2">
+                    </div>
+                    <div class="rs-section-3">
+                    </div>
+                </div>
+            </div>
+            <div class="footer-section-2">
+                <strong>
+                    <p>Films et évènements</p>
+                </strong>
+                <a class="a-none-w" href="affiche.html">
+                    <p class="p-footer p-footer-first">Films à l'affiche</p>
+                </a>
+                <a class="a-none-w" href="affiche.html">
+                    <p class="p-footer">Nouveautés</p>
+                </a>
+                <a class="a-none-w" href="prochainement.html">
+                    <p class="p-footer">Prochainement</p>
+                </a>
+                <a class="a-none-w" href="prochainement.html">
+                    <p class="p-footer">Avant-premières</p>
+                </a>
+            </div>
+            <div class="footer-section-3">
+                <div class="ft-sc-3-in">
+                    <div class="rs-2">
+                        <div class="rs-section">
+                        </div>
+                        <div class="rs-section-2">
+                        </div>
+                        <div class="rs-section-3">
+                        </div>
+                    </div>
+                    <strong>
+                        <p class="hidden">Liens utiles</p>
+                    </strong>
+                    <p class="p-footer p-footer-first">Mentions légales</p>
+                    <p class="p-footer">Conditions générales</p>
+                    <p class="p-footer">Paramétrage des cookies</p>
+                    <p class="p-footer">Charte de confidentialité</p>
+                    <p class="p-footer">Plan du site</p>
+                    <p class="p-footer">Accessibilité</p>
+                    <a class="a-none-w" href="contact.html">
+                        <p class="p-footer">Contact</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <p class="copyright">Cinéma Royal, Saint-Max ©</p>
+    </footer>
+
+</body>
+
+</html>

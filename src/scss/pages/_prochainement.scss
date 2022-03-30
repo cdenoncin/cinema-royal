@@ -1,0 +1,39 @@
+.proch-txt-bleu {
+    color: #26607A;
+    font-size: 25px;
+    padding: 0 6% 3% 6%;
+}
+
+.proch-h2 {
+    padding: 3% 6% 1% 6% !important;
+}
+
+.proch-affichage {
+    background-color: #eaeaea;
+    margin: 0 5% 5% 5%;
+    height: auto;
+}
+
+.proch-2-affichage {
+    background-color: #eaeaea;
+    margin: 0 5%;
+    height: auto;
+}
+
+
+.aff-affiches-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5% 0 5%;
+    text-align: left;
+}
+
+.affiche-2 {
+    width: 70%;
+    border-radius: 25px;
+}
+
+.affiche-2:hover {
+    width: 75%;
+}

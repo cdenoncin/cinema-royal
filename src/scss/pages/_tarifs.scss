@@ -1,0 +1,31 @@
+.tarifs-entete {
+    display: flex;
+}
+
+.tarifs-titre {
+    color: #26607A;
+    margin-top: 3.5%;
+    font-size: 20px;
+}
+
+.tar-txt-bleu {
+    color:#26607A;
+}
+
+.tarifs-txt {
+    padding: 0 8% 0 6%;
+}
+
+.tarifs-txt-2 {
+    padding: 0 8% 6% 6%;
+}
+
+
+@media screen and (max-width: 570px) {
+    .tarifs-entete {
+        display: block;
+    }
+    .tarifs-titre {
+        padding: 0% 6% 3% 6%;
+    }
+}

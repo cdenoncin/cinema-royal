@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="./src/css/main.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" />
+
+    <title>Cinéma Royal</title>
+</head>
+
+<body>
+
+    <div class="first-home-aff-resp">
+        <div class="actu-menu">
+            <h2>À l'affiche</h2>
+        </div>
+        <div class="owl-carousel owl-theme">
+            <div class="drag-elt item" data-class="all">
+                <a href="single-affiche.html"><img class="drag-img" src="dist/img/home-aff-1.png"></a>
+                <p class="drag-titre">Poly</p>
+                <p class="drag-aut">Nicolas Vanier</p>
+            </div>
+            <div class="drag-elt item" data-class="all">
+                <a href="single-affiche.html"><img class="drag-img" src="dist/img/home-aff-2.png"></a>
+                <p class="drag-titre">Drunk</p>
+                <p class="drag-aut">Thomas Vinterberg</p>
+            </div>
+            <div class="drag-elt item" data-class="all">
+                <a href="single-affiche.html"><img class="drag-img" src="dist/img/home-aff-3.jpg"></a>
+                <p class="drag-titre">Les Trolls 2</p>
+                <p class="drag-aut">Walt Dohrn</p>
+            </div>
+            <div class="drag-elt item" data-class="new">
+                <a href="single-affiche.html"><img class="drag-img"
+                        src="dist/img/home-aff-6.jpg"></a>
+                <p class="drag-titre">30 jours max</p>
+                <p class="drag-aut">Tarek Boudali</p>
+            </div>
+            <div class="drag-elt item" data-class="new">
+                <a href="single-affiche.html"><img class="drag-img"
+                        src="dist/img/home-aff-7.png"></a>
+                <p class="drag-titre">Adieu les cons</p>
+                <p class="drag-aut">Albert Dupontel</p>
+            </div>
+            <div class="drag-elt item" data-class="all">
+                <a href="single-affiche.html"><img class="drag-img"
+                        src="dist/img/home-aff-8.jpg"></a>
+                <p class="drag-titre">Lupin III : The First</p>
+                <p class="drag-aut">Takashi Yamazaki</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+        integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous"></script>
+
+    <script type="text/javascript">
+        $('.owl-carousel').owlCarousel({
+            loop: false,
+            margin: 20,
+            nav: false,
+            dots: false,
+            stagePadding: 100,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                700: {
+                    items: 2
+                },
+                1000: {
+                    items: 3
+                }
+            }
+        })
+    </script>
+
+    <!--<div class="home-aff">
+        <h2>Actuellement à l'affiche</h2>
+        <div class="owl-carousel">
+            <div class="slid-aff-affiches">
+                <div class="slider-affiches">
+                    <div class="slider-aff-elt item" data-class="all">
+                        <a href="single-affiche.html"><img class="sec-affiche sec1-affiche-resp"
+                                src="dist/img/home-aff-1.png"></a>
+                        <p class="aff-titre">Poly</p>
+                        <p class="aff-aut">Nicolas Vanier</p>
+                    </div>
+                    <div class="slider-aff-elt item" data-class="all">
+                        <a href="single-affiche.html"><img class="sec-affiche sec1-affiche-resp"
+                                src="dist/img/home-aff-2.png"></a>
+                        <p class="aff-titre">Drunk</p>
+                        <p class="aff-aut">Thomas Vinterberg</p>
+                    </div>
+                    <div class="slider-aff-elt item" data-class="all">
+                        <a href="single-affiche.html"><img class="sec-affiche sec1-affiche-resp"
+                                src="dist/img/home-aff-3.jpg"></a>
+                        <p class="aff-titre">Les Trolls 2</p>
+                        <p class="aff-aut">Walt Dohrn</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a class="aff-btn-a" href="affiche.html">
+            <p class="aff-btn">Voir tous les films à l'affiche</p>
+        </a>
+    </div>-->
+
+</body>
+
+</html>

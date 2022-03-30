@@ -1,0 +1,106 @@
+*{ 
+    margin: 0px;
+    padding: 0px;
+    font-family: Montserrat;
+}
+
+/*COMPONENTS / MENU*/
+
+.logo {
+    height: 80px;
+    padding: 15px 15px 15px 35px;
+    width: auto;
+    left: 0;
+    float: left;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav li {
+    float: left;
+    width: 10%;
+    text-align: center;
+}
+
+nav ul::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+nav {
+    width: 100%;
+    margin: 0 auto;
+    background-color: white;
+    position: sticky;
+    top: 0px;
+}
+
+nav .menu {
+    display: block;
+    text-decoration: none;
+    color: #26607A;
+    border-bottom: 2px solid transparent;
+    padding: 45px 0px;
+}
+
+nav .menu:hover {
+    color: #26607A;
+    border-bottom: 2px solid #26607A;
+}
+
+/*COMPONENTS / SLIDER*/
+
+.slider {
+    height: 420px;
+    width: 100%;
+    background-image: url('dist/img/home.png');
+    background-position: 0 0;
+    background-repeat: no-repeat;
+}
+
+.slider-pic {
+    width: 100%;
+    height: auto;
+}
+
+.slider-film {
+    background-color: #26607A;
+    width: 30%;
+    position: absolute;
+    transform: translateY(-100%);
+}
+
+.slider-film-text {
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: .1rem;
+    padding : 15px 0;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+}
+
+/*BIENVENUE*/
+
+/*.bienvenue {
+    background-color: gold;
+    height: 200px;
+}*/
+
+.bienvenue-text {
+    padding: 2% 5%;
+    width: 100%;
+    background-color: lightslategray;
+}
+
+.bienvenue-1 {
+    font-size: 30px;
+}
+
+.bienvenue-2 {
+    font-size: 49px;
+    font-family: Montserrat;
+    font-weight: 800;
+}

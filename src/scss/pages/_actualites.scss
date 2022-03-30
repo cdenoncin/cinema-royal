@@ -1,0 +1,181 @@
+//FIL D'ARIANE
+
+.fil-ariane {
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 3% 0 3% 5%;
+    font-size: 14px;
+}
+
+.fil {
+    color: #26607A;
+}
+
+.a-riane {
+    text-decoration: none;
+}
+
+//ACTUALITES
+
+.actu-aff {
+    background-color: #eaeaea;
+    margin: 0 5%;
+    height: auto;
+}
+
+.actu-menu {
+    display: flex;
+}
+
+.actu-menu-txt {
+    font-size: 25px;
+    margin-top: 11%;
+    color: $gris;
+    cursor: pointer;
+
+    &:last-of-type {
+        &:after {
+            content: none;
+        }
+    }
+
+    &:after {
+        content: "|";
+        color: $gris;
+        padding-left: 10px;
+    }
+}
+
+.active {
+    color: #26607A !important;
+}
+
+.sortedDown {
+    display: none !important;
+}
+
+.a-menu {
+    display: flex;
+}
+
+.a-menu-a {
+    text-decoration: none;
+}
+
+.actu-img {
+    height: 250px;
+    width: 350px;
+    background-image: url("../img/actu-1.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.actu-img-2 {
+    background-image: url("../img/actu-2.jpg") !important;
+}
+
+.actu-img-3 {
+    background-image: url("../img/actu-3.jpg") !important;
+}
+
+
+.actu-date {
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 400;
+    color: #26607A;
+    letter-spacing: 1px;
+    font-size: 25px;
+    padding: 0 0 1%;
+}
+
+.actu-h3 {
+    border-bottom: 2px solid #26607A;
+}
+
+.actu-ss-titre {
+    color: #26607A;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding: 0 9% 0 0;
+}
+
+.actu-desc {
+    color: #111111;
+    padding: 0 9% 0 0;
+}
+
+.actualite-btn:hover {
+    color: #26607A;
+}
+
+.actualite-btn {
+    color: #111111;
+    margin-top: 8%;
+    margin-bottom: 10%;
+}
+
+.actualite-glob {
+    display: flex;
+}
+
+.actualite-apercu {
+    padding: 0 0 3% 6%;
+}
+
+.float-actu-img {
+    float: left;
+}
+
+.actualite-texte {
+    padding: 0 0 0 5%;
+}
+
+//RESPONSIVE
+
+@media screen and (max-width: 1300px) {
+    .actu-menu {
+        display: block;
+    }
+
+    .actu-menu-txt {
+        margin-top: 0 !important;
+    }
+
+    .a-menu {
+        padding: 0 6% 3% 6% !important;
+    }
+
+}
+
+@media screen and (max-width: 577px) {
+    .actu-menu-txt {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 404px) {
+    .actu-menu-txt {
+        font-size: 13px;
+        margin-bottom: 5%;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .actualite-glob {
+        display: block;
+    }
+
+    .actualite-apercu {
+        padding: 0 6% 3% 6% !important;
+    }
+
+    .actu-img {
+        width: 100% !important;
+        height: 250px !important;
+    }
+
+    .actualite-btn-resp {
+        padding: 0 0 8% 0 !important;
+    }
+}

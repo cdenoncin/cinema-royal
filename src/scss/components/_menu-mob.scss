@@ -1,0 +1,57 @@
+*{ 
+    margin: 0px;
+    padding: 0px;
+    font-family: Montserrat;
+}
+
+/*COMPONENTS / MENU*/
+
+.header-menu {
+    width: 100%;
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+}
+
+.logo-menu-resp {
+    height: 70px;
+    padding: 15px 15px 15px 35px;
+    width: auto;
+    left: 0;
+    float: left;
+    z-index: 4;
+}
+
+.menu-container {
+    height: 100vh;
+}
+
+.elt-menu {
+    text-align: center;
+}
+
+.menu-txt {
+    color: #26607A;
+    padding: 4% 0;
+    font-size: 25px;
+}
+
+
+@media screen and (max-width: 610px) {
+    .elt-menu {
+        padding: 10% 0 0 0;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .elt-menu {
+        padding: 40% 0 0 0;
+        margin: 20% 0 0 0 !important;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .menu-txt {
+        padding: 3% 0 0 0;
+    }
+}
